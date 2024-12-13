@@ -1,1 +1,1 @@
-# Diary-api
+# DiaryApi

@@ -1,0 +1,22 @@
+{
+  "name": "vivian/diary_api",
+  "autoload": {
+    "psr-4": {
+      "Vivian\\DiaryApi\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vivian11291129",
+      "email": "vivianguo93@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.9",
+    "firebase/php-jwt": "^6.10"
+  },
+  "scripts": {
+    "start": "php -S localhost:8000 -t src"
+  },
+  "config":{"process-timeout": 0}
+}
